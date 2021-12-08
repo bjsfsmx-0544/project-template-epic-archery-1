@@ -16,7 +16,7 @@ function setup() {
   world = engine.world;
 
   playerBase = new PlayerBase(300, random(450, height - 300), 180, 150);
-//create a player object from the Player class.
+//crea un objeto player para la clase player
 
   computerBase = new ComputerBase(
     width - 300,
@@ -43,11 +43,11 @@ function draw() {
   fill("#FFFF");
   textAlign("center");
   textSize(40);
-  text("EPIC ARCHERY", width / 2, 100);
+  text("TIRO CON ARCO ÉPICO", width / 2, 100);
 
  
   playerBase.display();
-//call the display() function for the player object.
+//llama a la función display() para el objeto del jugador.
   
 
   computerBase.display();
